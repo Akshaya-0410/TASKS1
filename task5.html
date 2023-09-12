@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5</title>
+</head>
+<style>
+    form{
+        text-align:justify
+    }
+    table{
+        width: 700px;
+    }
+</style>
+<body>
+    <h1 style="text-decoration: underline;">Task 5:</h1>
+    <h2 style= "color: blue;">Registration form</h2>
+    <form>
+        <table border="1">
+            <tr align="left">
+                <th>First Name</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr align="left">
+                <th>Last Name</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr align="left">
+                <th>Email</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr align="left">
+                <th>Password</th>
+                <td><input type="password"></td>
+            </tr>
+            <tr align="left">
+                <th>Re-enter Password</th>
+                <td><input type="password"></td>
+            </tr>
+            <tr align="left">
+                <th>Gender</th>
+                <td colspan="2"><input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female</td>
+            </tr>
+            <tr align="left">
+                <th>Age</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr align="left">
+                <th>Phone Number</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr align="left">
+                <th>Address</th>
+                <td><textarea rows="4" cols="28"></textarea></td>
+            </tr>
+            <tr align="left">
+                <th>State</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr align="left">
+                <th>Country</th>
+                <td><select name="country" id="country">
+                    <option>Choose a country</option>
+                    <option value="India">India</option>
+                    <option value="Us">Us</option>
+                    <option value="Finland">Finland</option>
+                </select></td>
+            </tr>
+            <tr align="left">
+                <th>Languages known</th>
+                <td><input type="checkbox" name="language" value="English">English
+                    <input type="checkbox" name="language" value="Telugu">Telugu
+                    <input type="checkbox" name="language" value="Kannada">Kannada
+                    <input type="checkbox" name="language" value="Hindi">Hindi</td>
+            </tr>
+            <tr align="left">
+               <td colspan="2"><input type="checkbox" name="declare" value="declaration">Hereby I declare all the given details are true</td>
+            </tr>
+            <tr align="right">
+                <td colspan="2">Login to <a href="https://codemithra.com/">Ethnus</a> website</td>
+            </tr>
+        </table><br>
+        <form>
+            <input type="submit" value="Register">
+        </form>
+    </form>
+</body>
+</html>
